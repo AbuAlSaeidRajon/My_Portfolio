@@ -11,13 +11,19 @@ h3{
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
+    background-image: url(blue-toned-pack-paper-sheets-with-copy-space_23-2148320442.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+
 }
 
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 1px;
 }
 
 section {
