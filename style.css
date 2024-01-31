@@ -39,18 +39,40 @@ li {
     margin-bottom: 10px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 5px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
 form {
     background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+footer {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    color: #100404;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: auto;
+    border-radius: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 16px; 
+    display: flex;
+    align-items: center;
+}
+
+.social-links i {
+    margin-right: 5px; 
+}
+
+.social-links a:hover {
+    color: #007bff; 
 }
