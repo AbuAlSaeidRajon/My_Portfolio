@@ -1,6 +1,6 @@
 .header1 {
-        background-color: #333; /* Adjust the background color as needed */
-        color: #fff; /* Adjust the text color as needed */
+        background: radial-gradient(#f69d3c, #3f87a6);
+        color: #fff; 
         padding: 20px;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .logo img {
-    max-width: 100px; /* Adjust the max-width of your logo */
+    max-width: 100px;
     height: auto;
 }
 
@@ -21,19 +21,18 @@
 
 .header-text h1 {
     margin: 0;
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px; 
 }
 
 .header-text p {
     margin: 5px 0;
-    font-size: 14px; /* Adjust the font size as needed */
+    font-size: 14px; 
 }
 
 h3{
     color: brown;
 }
 
-/* styles.css */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
